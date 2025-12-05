@@ -4,7 +4,7 @@ import Business.Organization.Organization.Type;
 import java.util.ArrayList;
 
 /**
- *
+ * 
  * @author sange
  */
 public class OrganizationDirectory {

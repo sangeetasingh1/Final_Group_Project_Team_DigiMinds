@@ -9,6 +9,7 @@ import java.util.ArrayList;
 /**
  * 
  * @author sange
+ * 
  */
 public class SupplyChainSystem extends Organization{
     
