@@ -1,10 +1,12 @@
 package Business.Enterprise;
 
+import Business.Organization.OrganizationDirectory;
 import java.util.ArrayList;
 
 /**
- *
+ * 
  * @author sange
+ * 
  */
 public class EnterpriseDirectory {
     private ArrayList<Enterprise> enterpriseList;

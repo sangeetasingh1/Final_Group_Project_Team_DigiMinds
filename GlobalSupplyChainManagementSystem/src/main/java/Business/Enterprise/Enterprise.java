@@ -1,4 +1,4 @@
-package Business.Enterprise;
+ package Business.Enterprise;
 
 import Business.Organization.Organization;
 import Business.Organization.OrganizationDirectory;
@@ -6,6 +6,7 @@ import Business.Organization.OrganizationDirectory;
 /**
  * 
  * @author sange
+ * 
  */
 public abstract class Enterprise extends Organization{
     

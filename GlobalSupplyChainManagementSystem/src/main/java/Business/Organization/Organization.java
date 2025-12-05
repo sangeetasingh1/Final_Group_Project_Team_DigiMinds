@@ -7,7 +7,7 @@ import Business.WorkQueue.WorkQueue;
 import java.util.ArrayList;
 
 /**
- *
+ * 
  * @author sange
  */
 public abstract class Organization {

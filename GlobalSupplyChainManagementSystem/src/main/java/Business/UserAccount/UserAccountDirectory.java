@@ -5,7 +5,7 @@ import Business.Role.Role;
 import java.util.ArrayList;
 
 /**
- *
+ * 
  * @author sange
  */
 public class UserAccountDirectory {
@@ -23,16 +23,17 @@ public class UserAccountDirectory {
     public UserAccount authenticateUser(String username, String password){
         for (UserAccount ua : userAccountList) {
             if (ua.getUsername().equals(username)) {
-               
+                // Check if password is hashed or plain text (for backward compatibility)
                 String storedPassword = ua.getPassword();
                 if (Business.Util.PasswordUtil.isHashed(storedPassword)) {
-                    
+                    // Use password hashing
                     if (Business.Util.PasswordUtil.verifyPassword(password, storedPassword)) {
                         return ua;
                     }
                 } else {
-                    
+                    // Legacy plain text password (for migration)
                     if (storedPassword.equals(password)) {
+                        // Upgrade to hashed password
                         ua.setPassword(Business.Util.PasswordUtil.hashPassword(password));
                         return ua;
                     }

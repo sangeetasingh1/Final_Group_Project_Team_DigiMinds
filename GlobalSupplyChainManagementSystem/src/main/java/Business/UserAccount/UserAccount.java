@@ -5,7 +5,7 @@ import Business.Role.Role;
 import Business.WorkQueue.WorkQueue;
 
 /**
- *
+ * 
  * @author sange
  */
 public class UserAccount {
@@ -57,6 +57,8 @@ public class UserAccount {
     public WorkQueue getWorkQueue() {
         return workQueue;
     }
+
+    
     
     @Override
     public String toString() {
