@@ -8,7 +8,10 @@ import Business.UserAccount.UserAccount;
 import ui.DoctorRole.DoctorWorkAreaJPanel;
 import javax.swing.JPanel;
 
-
+/**
+ *
+ * @author sange
+ */
 public class DoctorRole extends Role{
 
     @Override

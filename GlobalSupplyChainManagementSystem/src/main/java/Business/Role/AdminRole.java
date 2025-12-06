@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package Business.Role;
 
 import Business.SupplyChainSystem;
@@ -11,6 +7,10 @@ import Business.UserAccount.UserAccount;
 import ui.AdministrativeRole.AdminWorkAreaJPanel;
 import javax.swing.JPanel;
 
+/**
+ *
+ * @author sange
+ */
 public class AdminRole extends Role{
 
     @Override

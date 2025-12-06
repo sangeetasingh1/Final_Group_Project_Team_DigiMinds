@@ -8,6 +8,7 @@ import Business.UserAccount.UserAccount;
 import ui.InventoryRole.InventoryAnalystWorkAreaJPanel;
 import javax.swing.JPanel;
 
+
 public class InventoryAnalystRole extends Role {
 
     @Override
